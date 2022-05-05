@@ -17,11 +17,10 @@ def products():
     return render_template('about.html')
     #return "render_template('product.html')"
 
-@app.route('/templates')::
+@app.route('/templates')
 def template():
     return render_template('welcome.html')
     #return "render_template('product.html')"
 
 if __name__=="__main__":
     app.run(debug=True ,port=8000)
-
